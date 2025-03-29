@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 api:
   url: http://localhost:8080
+=======
+backend:
+  usuario: localhost:3333/users
+>>>>>>> 84b119e (config contabilidad)
