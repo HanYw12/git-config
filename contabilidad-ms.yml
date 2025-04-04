@@ -14,13 +14,15 @@ spring:
     show-sql: false
     properties:
       hibernate:
-        format_sql: true
+        format_sql: false
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
 logging:
   level:
     org.springframework: INFO
-    org.hibernate.SQL: DEBUG
+    org.hibernate.SQL: OFF
+    org.hibernate.type.descriptor.sql.BasicBinder: OFF
+    org.springframework.transaction: INFO
 
 springdoc:
   api-docs:
@@ -42,4 +44,3 @@ kafka:
 topic:
   nameCuenta: cuentacontable
   nameInventario: cuentacontable
-
