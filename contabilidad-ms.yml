@@ -40,5 +40,6 @@ kafka:
   consumer:
     group-id: mi-grupo-contable
 topic:
-  name: cuentacontable
+  nameCuenta: cuentacontable
+  nameInventario: cuentacontable
 
