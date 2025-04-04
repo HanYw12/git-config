@@ -31,3 +31,9 @@ springdoc:
 server:
   address: 0.0.0.0
   port: 5999
+
+kafka:
+  producer:
+    bootstrap-servers: localhost:9092
+    key-serializer: org.apache.kafka.common.serialization.StringSerializer
+    value-serializer: org.apache.kafka.common.serialization.StringSerializer
