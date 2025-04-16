@@ -44,3 +44,4 @@ kafka:
 topic:
   nameCuenta: cuentacontable
   nameInventario: cuentacontable
+  nameSriGetFactura: getfacturasri
