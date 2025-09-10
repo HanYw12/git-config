@@ -19,10 +19,10 @@ spring:
 
 logging:
   level:
-    org.springframework: INFO
-    org.hibernate.SQL: OFF
-    org.hibernate.type.descriptor.sql.BasicBinder: OFF
-    org.springframework.transaction: INFO
+    org.hibernate.SQL: DEBUG
+    org.hibernate.orm.jdbc.bind: TRACE               # Hibernate 6 (valores de parámetros)
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE  # Hibernate 5 (valores de parámetros)
+    org.springframework.transaction: DEBUG
 
 springdoc:
   api-docs:
