@@ -45,3 +45,4 @@ topic:
   nameCuenta: cuentacontable
   nameInventario: cuentacontable
   nameSriGetFactura: getfacturasri
+  inventarioAsientoContable: cuentacontable
