@@ -41,7 +41,8 @@ springdoc:
 
 server:
   address: 0.0.0.0
-  port: 6000
+  port: 5998
 
 jwt:
   secret: your-new-32-characters-or-more-secret-key
+
