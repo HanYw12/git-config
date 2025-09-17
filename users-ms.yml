@@ -20,18 +20,28 @@ spring:
 logging:
   level:
     org.hibernate.SQL: DEBUG
-    org.hibernate.orm.jdbc.bind: TRACE               # Hibernate 6 (valores de parámetros)
-    org.hibernate.type.descriptor.sql.BasicBinder: TRACE  # Hibernate 5 (valores de parámetros)
+    org.hibernate.orm.jdbc.bind: TRACE
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.springframework.transaction: DEBUG
+    org.springdoc: DEBUG  # ← Agrega esto para debug de Swagger
 
 springdoc:
   api-docs:
-    path: /v1/api-docs
+    path: /v3/api-docs
+    enabled: true
   swagger-ui:
     path: /swagger-ui.html
+    enabled: true
+    display-request-duration: true
+    tags-sorter: alpha
+    operations-sorter: alpha
+  show-actuator: false
+  default-produces-media-type: application/json
+  default-consumes-media-type: application/json
 
 server:
   address: 0.0.0.0
   port: 6000
+
 jwt:
   secret: your-new-32-characters-or-more-secret-key
