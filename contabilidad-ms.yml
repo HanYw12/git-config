@@ -34,7 +34,7 @@ server:
   address: 0.0.0.0
   port: 5999
   servlet:
-  context-path: /contabilidad-ms 
+    context-path: /contabilidad-ms 
 
 kafka:
   producer:
