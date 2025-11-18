@@ -48,3 +48,5 @@ topic:
   nameInventario: cuentacontable
   nameSriGetFactura: getfacturasri
   inventarioAsientoContable: inventario-asiento-contable
+jwt:
+  secret: your-new-32-characters-or-more-secret-key
