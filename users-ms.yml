@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/contabilidad
+    url: jdbc:postgresql://localhost:5436/contabilidad
     username: kevin
     password: kevin
     driver-class-name: org.postgresql.Driver
@@ -47,5 +47,6 @@ server:
 
 jwt:
   secret: your-new-32-characters-or-more-secret-key
+
 
 
