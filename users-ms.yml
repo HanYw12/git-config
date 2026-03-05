@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/contabilidad
+    url: jdbc:postgresql://postgreskvillegas:5432/contabilidad
     username: kevin
     password: kevin
     driver-class-name: org.postgresql.Driver
@@ -47,6 +47,7 @@ server:
 
 jwt:
   secret: vIlT9vd3ksbDX5a6fJ6MSJ8UeBEXmzFa8rrQYQwPNuXEMuqKEij9OxUCjQyvQg0Mg2CkQFR4ib6kwqkFb+165A==
+
 
 
 
